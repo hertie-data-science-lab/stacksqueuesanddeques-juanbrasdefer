@@ -2,7 +2,7 @@
 """
 Created on Sun Mar  5 18:34:01 2023
 
-@author: Juan Brasdefer, Fabian Pawelczyk
+@author: Juan Brasdefer (225936), Fabian Pawelczyk (226921)
 """
 
 class Empty(Exception): 

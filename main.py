@@ -2,7 +2,7 @@
 """
 Created on Sun Mar  5 18:34:20 2023
 
-@author: Hannah
+@author: Juan Brasdefer (225936), Fabian Pawelczyk (226921)
 """
 
 from ArrayDeque import ArrayDequeMaxlen
