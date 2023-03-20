@@ -14,7 +14,7 @@ AQM = ArrayDequeMaxlen(20)
 
 print('Adding last')
 for i in range(100):
-    AQM.append(i)
+    AQM.add_last(i)
     print (i, AQM._data)
         
 
@@ -22,7 +22,7 @@ for i in range(100):
     
 print ('\nAdding first')
 for i in range(20, 10, -1):
-    AQM.appendleft(i)
+    AQM.add_first(i)
     print (i, AQM._data)
     
     
