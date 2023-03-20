@@ -10,6 +10,8 @@ class Empty(Exception):
 
 class ArrayDequeMaxlen:
 
+    initial_capacity = 20
+
     #initialize our lovely deque
     def __init__(self, initial_capacity):
         #with typical initial capacity size
