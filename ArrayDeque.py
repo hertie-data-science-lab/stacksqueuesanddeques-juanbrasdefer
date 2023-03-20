@@ -13,7 +13,7 @@ class ArrayDequeMaxlen:
     #initialize our lovely deque
     def __init__(self, initial_capacity):
         #with typical initial capacity size
-        self._data = [None] * Deque.initial_capacity
+        self._data = [None] * ArrayDequeMaxlen.initial_capacity
         #and our front index and size measures
         self._front = 0
         self._size = 0

@@ -16,9 +16,7 @@ print('Adding last')
 for i in range(100):
     AQM.append(i)
     print (i, AQM._data)
-    
-print('\nDelete 80', AQM.remove(80), AQM._data, AQM._front)
-    
+        
 
 
     
